@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&family=BIZ+UDPGothic&display=swap');
+body {
+  background-color:black;
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center center;
+
+}
+h1{
+  text-align:center;
+
+}
+img{
+  width:100%;height:auto;
+}
+
+a:visited {
+  color: white;
+}
+a:hover {
+  color: plum;
+
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 80%;
+  transition: .5s ease;
+  background-color:black;
+}
+
+.div-2:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 200%;
+  font-family: 'Arima', cursive;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  right:0.1%;
+}
+.div-3:hover .overlay {
+  opacity: 1;
+}
+
+.text2 {
+  color: white;
+  font-size: 200%;
+  font-family: 'Arima', cursive;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  right:0.1%;
+}
+.div-4:hover .overlay {
+  opacity: 1;
+}
+
+.text3 {
+  color: white;
+  font-size: 200%;
+  font-family: 'Arima', cursive;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  right:0.1%;
+}
+.div-5:hover .overlay {
+  opacity: 1;
+}
+
+.text4 {
+  color: white;
+  font-size: 200%;
+  font-family: 'Arima', cursive;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  right:0.1%;
+}
+.flex-container{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 25%;
+  margin-top:10%;
+}
+
+
+.box .out {
+	width: 400px;
+	height: 200px;
+	line-height: 300%;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.box .out:first-child {
+	background-color: plum;
+	color: indigo;
+	transform-origin: right;
+	transform: perspective(100px) rotateY(-15deg);
+}
+
+.box .out:last-child {
+	background-color: darkmagenta;
+	color: lavender;
+	transform-origin: left;
+	transform: perspective(100px) rotateY(15deg);
+}
+
+.box .out span {
+	position: absolute;
+	animation: marquee 5s linear infinite;
+}
+
+.box .out:first-child span {
+	animation-delay: 2.5s;
+	left: -100%;
+}
+
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
+}
+.out{
+  color:white;
+  font-size:400%;
+  font-family: 'Arima', cursive;
+  text-align:center;
+  width:40%;
+}
+.div-1b{
+  color:white;
+  font-size:100%;
+  font-family: 'Arima', cursive;
+  width:50%;
+  text-align:center;
+}
+.div-2{
+  position:relative;
+  width:40%;
+  margin:5%;
+}
+.div-3{
+  position:relative;
+  width:40%;
+  margin:5%;
+}
+.div-4{
+  position:relative;
+  width:40%;
+  margin:5%;
+}
+.div-5{
+  position:relative;
+  width:40%;
+  margin:5%;
+}
+.flex-container2{
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content:space-around;
+}
+.div-6{
+  position:relative;
+  width:25%;
+  margin:5%;
+}
+.div-7{
+  position:relative;
+  width:25%;
+  margin:5%;
+}
+.div-8{
+  position:relative;
+  width:25%;
+  margin:5%;
+}
+.div-9{
+  position:relative;
+  width:25%;
+  margin:5%;
+}
+.div-10{
+  position:relative;
+  width:25%;
+  margin:5%;
+}
+.div-11{
+  position:relative;
+  width:25%;
+  margin:5%;
+}
+.div-12{
+  position:relative;
+  width:25%;
+  margin:5%;
+}
+.div-13{
+  position:relative;
+  width:25%;
+  margin:5%;
+}
+.div-14{
+  position:relative;
+  width:25%;
+  margin:5%;
+}
+.div-15{
+  position:relative;
+  width:25%;
+  margin:5%;
+}
+.flex-container3{
+  display:flex;
+  flex-flow:wrap;
+  align-items:center;
+  justify-content:space-around;
+}
