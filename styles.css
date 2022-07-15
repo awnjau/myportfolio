@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&family=BIZ+UDPGothic&display=swap');
-body {
-  background-color:black;
+body.main {
   background-image: url("background.png");
   background-size: cover;
   background-position: center center;
-
+  background-color:black;
+}
+body.webdev{
+  background-color: black;
+}
+body.digiart{
+  background-color: black;
+}
+body.video{
+  background-color: white;
+}
+body.photography{
+  background-color: white;
 }
 h1{
   text-align:center;
@@ -145,12 +156,13 @@ a:hover {
   width:40%;
 }
 .div-1b{
-  color:white;
+  color: white;
   font-size:100%;
   font-family: 'Arima', cursive;
   width:50%;
   text-align:center;
 }
+
 .div-2{
   position:relative;
   width:40%;
@@ -232,4 +244,78 @@ a:hover {
   flex-flow:wrap;
   align-items:center;
   justify-content:space-around;
+}
+.div-16{
+  color:white;
+  font-size: 200%;
+  margin: 10%;
+  text-align: left;
+  font-family: 'Arima', cursive;
+}
+.div-17{
+  color:white;
+  font-size: 200%;
+  margin: 10%;
+  text-align: left;
+  font-family: 'Arima', cursive;
+}
+.div-18{
+    position:relative;
+    width:20%;
+    margin:5%;
+}
+.div-19{
+    position:relative;
+    width:20%;
+    margin:5%;
+}
+.div-20{
+    position:relative;
+    width:20%;
+    margin:5%;
+}
+.div-21{
+    position:relative;
+    width:20%;
+    margin:5%;
+}
+.div-22{
+    position:relative;
+    width:20%;
+    margin:5%;
+}
+.div-23{
+    position:relative;
+    width:20%;
+    margin:5%;
+}
+.flex-container4{
+  display:flex;
+  flex-flow:wrap;
+  align-items:center;
+  justify-content:space-around;
+}
+.div-24{
+  color: white;
+  font-size:200%;
+  font-family: 'Arima', cursive;
+  text-align:center;
+}
+.div-25{
+  font-size:150%;
+  font-family: 'Arima', cursive;
+  text-align:left;
+  margin-left: 8%;
+}
+.div-26{
+  font-size:150%;
+  font-family: 'Arima', cursive;
+  text-align:left;
+  margin-left: 8%;
+}
+.div-27{
+  font-size:150%;
+  font-family: 'Arima', cursive;
+  text-align:left;
+  margin-left: 8%;
 }
