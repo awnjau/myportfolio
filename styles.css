@@ -12,10 +12,10 @@ body.digiart{
   background-color: black;
 }
 body.video{
-  background-color: white;
+  background-color: black;
 }
 body.photography{
-  background-color: white;
+  background-color:black;
 }
 h1{
   text-align:center;
@@ -239,6 +239,31 @@ a:hover {
   width:25%;
   margin:5%;
 }
+.div-15a{
+  position:relative;
+  width:25%;
+  margin:5%;
+}
+.div-15b{
+  position:relative;
+  width:25%;
+  margin:5%;
+}
+.div-15c{
+  position:relative;
+  width:25%;
+  margin:5%;
+}
+.div-15d{
+  position:relative;
+  width:25%;
+  margin:5%;
+}
+.div-15e{
+  position:relative;
+  width:25%;
+  margin:5%;
+}
 .flex-container3{
   display:flex;
   flex-flow:wrap;
@@ -318,4 +343,21 @@ a:hover {
   font-family: 'Arima', cursive;
   text-align:left;
   margin-left: 8%;
+}
+.flex-container5{
+  display:flex;
+  flex-flow:column;
+  align-items:center;
+  justify-content:space-around;
+}
+.div-28{
+    position:relative;
+    width:30%;
+    margin:5%;
+}
+.div-29{
+    position:relative;
+    width:30%;
+    margin:5%;
+
 }
