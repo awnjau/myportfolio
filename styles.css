@@ -30,7 +30,6 @@ a:visited {
 }
 a:hover {
   color: plum;
-
 }
 a[data-fancybox] img {
   cursor: zoom-in;
@@ -178,21 +177,25 @@ a[data-fancybox] img {
   position:relative;
   width:40%;
   margin:5%;
+  color:white;
 }
 .div-3{
   position:relative;
   width:40%;
   margin:5%;
+  color:white;
 }
 .div-4{
   position:relative;
   width:40%;
   margin:5%;
+  color:white;
 }
 .div-5{
   position:relative;
   width:40%;
   margin:5%;
+  color:white;
 }
 .flex-container2{
   display: flex;
