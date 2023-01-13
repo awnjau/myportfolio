@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&family=BIZ+UDPGothic&display=swap');
 body.main {
-  background-image: url("background.png");
-  background-size: cover;
   background-position: center center;
   background-color:black;
 }
 body.webdev{
-  background-color: black;
+  background-color:black;
 }
 body.digiart{
-  background-color: black;
+  background-color:black;
 }
 body.video{
-  background-color: black;
+  background-color:black;
 }
 body.photography{
   background-color:black;
@@ -102,7 +100,7 @@ a[data-fancybox] img {
 .div-1{
   color: white;
   font-size:100%;
-  font-family: 'Arima', cursive;
+  font-family: 'Arima', cursive, monospace;
   text-align:left;
   margin-left:2%;
 }
@@ -111,61 +109,74 @@ a[data-fancybox] img {
   flex-flow: column;
   align-items: center;
   margin-bottom: 25%;
-  margin-top:7%;
   color:white;
 }
 
-
-.box .out {
-	width: 400px;
-	height: 200px;
-	line-height: 300%;
-	font-weight: bold;
-	white-space: nowrap;
-	overflow: hidden;
+.div-1a{
+  padding: 0;
+   margin: 0;
+   height: 100vh;
+   font-family: 'Poppins', sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+ul {
+  position: relative;
+  display: flex;
 }
 
-.box .out:first-child {
-	background-color: plum;
-	color: indigo;
-	transform-origin: right;
-	transform: perspective(100px) rotateY(-15deg);
+li {
+  list-style: none;
 }
 
-.box .out:last-child {
-	background-color: darkmagenta;
-	color: lavender;
-	transform-origin: left;
-	transform: perspective(100px) rotateY(15deg);
+label {
+  position: relative;
 }
 
-.box .out span {
-	position: absolute;
-	animation: marquee 5s linear infinite;
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 80px;
+  width: 80px;
+  z-index: 100;
 }
 
-.box .out:first-child span {
-	animation-delay: 2.5s;
-	left: -100%;
+name {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  background: #18191f;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 46px;
+  cursor: pointer;
+  margin: 4px;
+  border-radius: 20px;
+  box-shadow: -1px -1px 4px rgba(255, 255, 255, 0.05),
+    4px 4px 6px rgba(0, 0, 0, 0.2),
+    inset -1px -1px 4px rgba(255, 255, 255, 0.05),
+    inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+input[type="checkbox"]:checked ~ name {
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.05),
+    inset 4px 4px 6px rgba(0, 0, 0, 0.2);
+  color: yellow;
+  text-shadow: 0 0 15px yellow, 0 0 25px yellow;
+  animation: glow 1.5s linear infinite;
 }
 
-@keyframes marquee {
-	from {
-		left: 100%;
-	}
-
-	to {
-		left: -100%;
-	}
+@keyframes glow {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }
-.out{
-  color:white;
-  font-size:400%;
-  font-family: 'Arima', cursive;
-  text-align:center;
-  width:40%;
-}
-
 .div-1b{
   color: white;
   font-size:100%;
@@ -203,6 +214,7 @@ a[data-fancybox] img {
   flex-flow: wrap;
   align-items: center;
   justify-content:space-around;
+  margin-top: -20%;
 }
 .div-6{
   position:relative;
