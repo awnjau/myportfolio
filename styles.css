@@ -98,11 +98,9 @@ a[data-fancybox] img {
   right:0.1%;
 }
 .div-1{
-  color: white;
-  font-size:100%;
-  font-family: 'Arima', cursive, monospace;
-  text-align:left;
-  margin-left:2%;
+}
+.div-1ai{
+
 }
 .flex-container{
   display: flex;
@@ -115,8 +113,8 @@ a[data-fancybox] img {
 .div-1a{
   padding: 0;
    margin: 0;
-   height: 100vh;
-   font-family: 'Poppins', sans-serif;
+   height:60vh;
+   font-family: 'Arima', cursive;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -164,9 +162,9 @@ name {
 input[type="checkbox"]:checked ~ name {
   box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.05),
     inset 4px 4px 6px rgba(0, 0, 0, 0.2);
-  color: yellow;
-  text-shadow: 0 0 15px yellow, 0 0 25px yellow;
-  animation: glow 1.5s linear infinite;
+  color: pink;
+  text-shadow: 0 0 15px pink, 0 0 25px pink;
+  animation: glow 2s linear infinite;
 }
 
 @keyframes glow {
@@ -178,11 +176,12 @@ input[type="checkbox"]:checked ~ name {
   }
 }
 .div-1b{
-  color: white;
+  color: grey;
   font-size:100%;
   font-family: 'Arima', cursive;
   width:50%;
   text-align:center;
+  margin-top: -9.5%;
 }
 
 .div-2{
