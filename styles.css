@@ -403,7 +403,11 @@ input[type="checkbox"]:checked ~ name {
     width:20%;
     margin:5%;
 }
-
+.div-20g{
+    position:relative;
+    width:20%;
+    margin:5%;
+}
 .div-20h{
     position:relative;
     width:20%;
@@ -414,13 +418,17 @@ input[type="checkbox"]:checked ~ name {
     width:20%;
     margin:5%;
 }
-
 .div-21{
     position:relative;
     width:20%;
     margin:5%;
 }
 .div-22{
+    position:relative;
+    width:20%;
+    margin:5%;
+}
+.div-23{
     position:relative;
     width:20%;
     margin:5%;
