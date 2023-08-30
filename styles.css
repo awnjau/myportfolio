@@ -472,7 +472,7 @@ input[type="checkbox"]:checked ~ name {
 .div-28{
   color:white;
   font-size: 200%;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 10%;
   text-align: left;
   font-family: 'Arima', cursive;
@@ -480,14 +480,15 @@ input[type="checkbox"]:checked ~ name {
 .div-28a{
   color:white;
   font-size: 100%;
-  margin-left: 10%;
+  margin-left: 5%;
   text-align: left;
   font-family: 'Arima', cursive;
 }
+
 .div-29{
   color:white;
   font-size: 200%;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 10%;
   text-align: left;
   font-family: 'Arima', cursive;
@@ -495,7 +496,7 @@ input[type="checkbox"]:checked ~ name {
 .div-29a{
   color:white;
   font-size: 100%;
-  margin-left: 10%;
+  margin-left: 5%;
   text-align: left;
   font-family: 'Arima', cursive;
 }
