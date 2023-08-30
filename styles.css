@@ -9,7 +9,7 @@ body.webdev{
 body.digiart{
   background-color:black;
 }
-body.video{
+body.uxprojects{
   background-color:black;
 }
 body.photography{
@@ -475,23 +475,34 @@ input[type="checkbox"]:checked ~ name {
   justify-content:space-around;
 }
 .div-28{
-    position:relative;
-    width:30%;
-    margin:5%;
+  color:white;
+  font-size: 200%;
+  margin-left: 10%;
+  margin-top: 10%;
+  text-align: left;
+  font-family: 'Arima', cursive;
 }
 .div-28a{
   color:white;
-  font-size:150%;
+  font-size: 200%;
+  margin-left: 10%;
+  margin-top: 10%;
+  text-align: left;
   font-family: 'Arima', cursive;
-  text-align: center;
 }
 .div-29{
-    position:relative;
-    width:30%;
+  color:white;
+  font-size: 200%;
+  margin-left: 10%;
+  margin-top: 10%;
+  text-align: left;
+  font-family: 'Arima', cursive;
 }
 .div-29a{
   color:white;
-  font-size:150%;
+  font-size: 200%;
+  margin-left: 10%;
+  margin-top: 10%;
+  text-align: left;
   font-family: 'Arima', cursive;
-  text-align: center;
 }
